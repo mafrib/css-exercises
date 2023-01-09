@@ -1,0 +1,16 @@
+.button1,
+.button2 {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.button1 {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+.button2 {
+  background-color: hsl(60, 100%, 50%);
+}
+
+/*Note: when using grouping selector, it is good practice to write each class in a different line*/

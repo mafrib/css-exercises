@@ -3,21 +3,22 @@ body{
 }
 
 .para,
-.small-para {
-  color: hsl(0, 0%, 0%);
+.small-para,
+.child {
   font-weight: 800;
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
+.para,
+div {
   font-size: 22px;
 }
 
-.confirm {
+.small-para,
+.child {
+  font-size: 14px;
+}
+
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -25,18 +26,14 @@ body{
 
 .button {
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
+div {
   font-weight: 100;
 }
+
+/*It works but:*/
+/*I tried to reduce the repetion of properties. Probably*/
+/* is not so clear to read it now, since I ended up repeating class*/
+/* references while grouping.*/
